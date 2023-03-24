@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+body{
+    background-image: url(pexels-pixabay-159490.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    height: 70px;
+    width: 1450px;
+    border-radius: 19px;
+    backdrop-filter: blur(06px);
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.logo{
+   justify-content: space-between;
+   display: flex;
+}
+.hed{
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;  
+}
+nav a:hover{
+    color: rgb(10, 255, 194);
+}
+.heder{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    background: transparent;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+.syp1{
+    width: 1340px;
+    height: 580px;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    background-color: white;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    
+}
+.he1{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he2{
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he3{
+    position: absolute;
+    top: 20px;
+    left: 740px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he4{
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he5{
+    position: absolute;
+    top: 320px;
+    left:40px ;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he6{
+    position: absolute;
+    top: 320px;
+    left: 360px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he7{
+    position: absolute;
+    top: 320px;
+    left: 740px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.he8{
+    position: absolute;
+    top:320px;
+    left: 1100px;
+    color: rgb(65, 235, 153);
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa1{
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 40px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa2{
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 360px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa3{
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 740px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa4{
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 1100px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa5{
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 40px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa6{
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 360px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa7{
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 740px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.pa8{
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 1100px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a1{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a2{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 260px;
+    left: 360px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a3{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top:260px ;
+    left: 740px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a4{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 260px;
+    left: 1100px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a5{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a6{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 550px;
+    left: 360px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a7{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 550px;
+    left: 740px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.a8{
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.syp1 a:hover{
+    color: rgb(44, 220, 214);
+}
+.log h1{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:130px ;
+    left: 620px;
+    text-shadow: 2px 2px 8px #00ffb3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+.l1{
+    border-left: 1.5px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 320px;
+    top: 230px;
+    height: 140px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.l2{
+    border-left: 1.5px solid white;
+    position: absolute;
+    left: 680px;
+    top: 230px;
+    height: 140px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+.l3{
+    border-left: 1.5px solid white;
+    position: absolute;
+    left: 1040px;
+    top: 230px;
+    height: 140px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.4s * var(--i));
+}
+
+@keyframes slideRight {
+    0%{
+       transform: translateX(-100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0%{
+       transform: translateY(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0%{
+       transform: translateX(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0%{
+       transform: scale(0); 
+       opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+

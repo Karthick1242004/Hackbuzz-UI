@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    padding: 10px 20px 20px 20px;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    height: 70px;
+    width: 1450px;
+    border-radius: 19px;
+    backdrop-filter: blur(06px);
+}
+.login{
+    position: absolute;
+    top:230px ;
+    left:570px ;
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 100px 20px 20px 20px;
+    color: white;
+}
+
+  input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+  }
+  input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+  }
+input[type=submit]
+{
+        width: 100%;
+        background:transparent ;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        align-items: center;
+        opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}  
+input[type=submit]:hover{
+    background:transparent ;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.logo{
+   justify-content: space-between;
+   display: flex;
+}
+.hed{
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;  
+}
+nav a:hover{
+    color: rgb(10, 255, 194);
+}
+.heder{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    background: transparent;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.reg{
+    position: absolute;
+    top:590px ;
+    left:560px ;
+    color: white;
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
+.reg a{
+    text-decoration: none;
+    color: rgb(30, 85, 251);
+    font-weight: 700;
+}
+.reg a:hover{
+    color:rgb(25, 63, 177) ;
+}
+.ll{
+    position: absolute;
+    top: 220px;
+    left: 620px;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
+.pas a{
+    text-decoration: none;
+    position: absolute;
+    top: 515px;
+    left: 670px;
+    font-size: 14px;
+    color: rgb(30, 85, 251);
+    font-weight: 700;
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
+.pas a:hover{
+    color:rgb(25, 63, 177) ;
+}
+.rd{
+   background-color:rgb(15, 182, 15);
+   width: 300px;
+   height:45px ;
+   color: white;
+   position: absolute;
+   top: 560px;
+   left: 592px;
+   border-radius: 5px;
+   border: 0.1px solid black;
+   opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
+.rd:hover{
+    background-color: rgb(20, 146, 20);
+}
+.des{
+    position: absolute;
+    top: 690px;
+    left: 530px;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2s;
+}
+.des span{
+    color: rgb(29, 216, 154);
+    padding: 10px 10px;
+}
+@keyframes slideRight {
+    0%{
+       transform: translateX(-100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX();
+        opacity: 0;
+    }
+    100%{
+        transform: translateX();
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0%{
+       transform: translateY(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0%{
+       transform: translateY(-100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0%{
+       transform: translateX(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0%{
+       transform: scale(0); 
+       opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.lab{
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
+.lab1{
+    opacity: 0;
+     animation: zoomIn 1s ease forwards;
+     animation-delay: 1s;
+}
